@@ -108,6 +108,8 @@ vue create XXX
 第三步 启动项目
 npm run serve
 
+第四步 编译项目
+npm run build
 
 
 
