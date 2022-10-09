@@ -3,6 +3,13 @@ wd3vfH8WwZanPU:
 gjGj00000000
 projectDemoDDD
 
+仓库名称改为 projectdemoddd.github.io
+
+vscode安装
+插件 简体中文版 chi
+open in browser 
+!+Tab生成html结构
+
 1.代码管理工具
 git
 
@@ -24,24 +31,6 @@ push
 
 
 1)安装
-官网下载安装包，直接安装即可
-设置用户签名
-git config --global user.name aa
-git config --global user.email aa
-git init 初始化本地库
-git status 查看状态
-git add ./hellow.txt 添加暂存区
-git rm --cached hello.txt 删除暂存区文件
-git commit -m “123” hello.txt 提交到本地仓库
-git reflog 查看版本信息
-git log 查看版本详细信息
-git reset --hard 5770506 切换版本，穿越版本（查看其它版本)
-
-分支
-git branch -v 查看分支
-git branch hot-fix 创建分支
-git checkout hot-fix 切换分支
-git merge hot-fix 合并分支,站在master合并hot-fix
 
 冲突 认为决定
 打开文件解决冲突，之后commit不能带文件名
@@ -89,7 +78,8 @@ merge request
 免密登录
 ssh-keygen -t rsa -C 邮箱
 
-
+npm 相关命令
+npm install
 
 
 cat a.txt
@@ -100,6 +90,28 @@ github
 
 
 
-2.vscode安装
-直接官网下载安装
+
+
+1.git
+2.nodejs+npm
+
+
+
+
+vue脚手架
+第一步 全局安装@vue/cli
+npm install -g @vue/cli
+
+第二步 切换到你要创建项目的目录，然后使用命令创建目录
+vue create XXX
+
+第三步 启动项目
+npm run serve
+
+
+
+
+
+
+
 
