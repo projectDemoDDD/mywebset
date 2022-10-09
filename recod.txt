@@ -1,0 +1,99 @@
+1.代码管理工具
+git
+
+
+本地仓库 版本控制
+
+工作区
+git add
+暂存区
+git commit
+本地库
+
+远程库 版本控制(github、Gitee、GitLab局域网服务器）
+push
+1
+
+常用命令
+
+
+
+1)安装
+官网下载安装包，直接安装即可
+设置用户签名
+git config --global user.name aa
+git config --global user.email aa
+git init 初始化本地库
+git status 查看状态
+git add ./hellow.txt 添加暂存区
+git rm --cached hello.txt 删除暂存区文件
+git commit -m “123” hello.txt 提交到本地仓库
+git reflog 查看版本信息
+git log 查看版本详细信息
+git reset --hard 5770506 切换版本，穿越版本（查看其它版本)
+
+分支
+git branch -v 查看分支
+git branch hot-fix 创建分支
+git checkout hot-fix 切换分支
+git merge hot-fix 合并分支,站在master合并hot-fix
+
+冲突 认为决定
+打开文件解决冲突，之后commit不能带文件名
+git add .
+git commit -m aa
+
+ head指针指向分支
+分支指向版本
+
+2）团队协作
+团队内
+
+跨团队
+fork
+clone
+push
+pull request
+审核 ->merge
+pull
+
+git remote -v 查看别名
+git remote add git-demo http:创建远程库别名
+
+凭据管理器
+
+git push git-demo master 把本地库的哪个分支推送到远程库
+弹出登录github
+需要有权限才能推送代码
+settings -> manager ->ivite->输入账号名称
+把邀请函给新成员->打开链接
+
+
+git pull git-demo master 拉取远程的master分支
+
+git clone 地址 克隆代码不需要登陆
+
+
+forlk其他团队的代码->pull request ->new pull request
+->create pull request
+
+ssh-keygen -t rsa -C
+merge request 
+
+
+
+
+
+
+
+cat a.txt
+
+
+2.代码仓库
+github
+
+
+
+2.vscode安装
+直接官网下载安装
+
