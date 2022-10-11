@@ -97,6 +97,14 @@ github
 
 
 
+shift+alt+f格式化代码
+
+
+
+环境搭建
+1.安装git
+2.安装nodejs
+3.安装vue脚手架
 
 vue脚手架
 第一步 全局安装@vue/cli
@@ -108,12 +116,14 @@ vue create XXX
 第三步 启动项目
 npm run serve
 
-第四步 编译项目
+第四步 编译项目->发布项目
 npm run build
 
+4.安装elementUI
+npm i element-ui -S
 
 
-
-
-
+微信小程序賬號
+gjnewstart@163.com
+Gg00000000
 
